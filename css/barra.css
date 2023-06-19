@@ -1,0 +1,25 @@
+.barra-cima{
+    display: block;
+    width: 100%;
+    height: 10%;
+
+}
+.barra-central{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    list-style: none;
+}
+.menus a{
+}
+a{
+    text-decoration: none;
+}
