@@ -1,4 +1,8 @@
-
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .barra-cima{
     position: fixed;
     width: 100%;
@@ -12,7 +16,7 @@
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    background-color: black;
+    background-color: #05161A;
     color: white;
     font-family:Saira,sans-serif;
 }
@@ -33,17 +37,28 @@ a{
 }
 #Inicio{
     width: 100%;
-    height: 40rem;
+    height: 47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #072E33;
+}
+.apresentacao{
+    color: rgb(217, 213, 213);
+    font-family: sans-serif;
 }
 #Sobre-mim{
     width: 100%;
-    height: 40rem;
+    height: 47rem;
+    background-color: #155158;
 }
 #Projetos{
     width: 100%;
-    height: 40rem;
+    height: 47rem;
+    background-color: #072E33;
 }
 #Habilidades{
     width: 100%;
-    height: 40rem;
+    height: 47rem;
+    background-color: #155158;
 }
