@@ -18,6 +18,7 @@
     background-color: #05161A;
     color: white;
     font-family:Saira,sans-serif;
+    box-shadow: 0 0 5px 1px #81abb4;
 }
 .menus{
     display: flex;
@@ -51,6 +52,7 @@ a{
     margin-bottom: 2rem;
 }
 #Sobre-mim{
+    color: rgb(211, 205, 205);
     height: 45rem;
     background-color: #155158;
 }
