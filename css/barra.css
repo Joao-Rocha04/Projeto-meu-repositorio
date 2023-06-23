@@ -28,6 +28,12 @@
     width: 40%;
     list-style: none;
 }
+.transitionBarra{
+    transition: color 0.5s;
+}
+.transitionBarra:hover{
+    color: #7ebad7;
+}
 .menus a {
     color: white;
     font-family:Saira,sans-serif;
@@ -44,12 +50,62 @@ a{
     background-color: #072E33;
 }
 .apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: rgb(217, 213, 213);
     font-family: sans-serif;
     list-style: none;
+    margin-right: 30rem;
 }
 .apresentacao li{
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+}
+.nome{
+    font-size: 4rem;
+}
+.dev{
+    font-size: 2rem;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin-caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 30%;
+    background-color: gray;
+    margin-right: 1rem;
+}
+.linkedin{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.github-caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 30%;
+    background-color: gray;
+}
+.github{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.transitionicon{
+    transition: transform 0.5s, background-color 0.5s;
+}
+.transitionicon:hover{
+    transform: scale(1.5);
+    background-color: rgb(47, 207, 135);
 }
 #Sobre-mim{
     color: rgb(211, 205, 205);
